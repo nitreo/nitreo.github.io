@@ -1,0 +1,62 @@
+{
+  "hosting": {
+    "rules": [
+      {
+        "include": "/",
+        "headers": [
+          {
+            "name": "Link",
+            "value": "</app.annwd7nj.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/xyfissap.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/7vi3n8gf.js>;rel=preload;as=script"
+          }
+        ]
+      },
+      {
+        "include": "/profile/stencil",
+        "headers": [
+          {
+            "name": "Link",
+            "value": "</app.annwd7nj.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/n0ws9uff.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/xyfissap.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/7vi3n8gf.js>;rel=preload;as=script"
+          }
+        ]
+      },
+      {
+        "include": "/build/app/**",
+        "headers": [
+          {
+            "name": "Cache-Control",
+            "value": "public, max-age=31536000"
+          }
+        ]
+      },
+      {
+        "include": "/sw.js",
+        "headers": [
+          {
+            "name": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}
