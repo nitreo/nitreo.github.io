@@ -11,7 +11,7 @@ export class MyApp {
     return (
       <div>
         <header>
-          <h1>Sinis Notes</h1>
+          <h1>Sinis Notes 2</h1>
         </header>
 
         <main>
